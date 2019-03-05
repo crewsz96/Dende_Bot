@@ -58,7 +58,7 @@ async def addrole(context):
     role = discord.utils.get(context.message.server.roles, name=entered_role)
 
     if role == None or role.name not in valid_roles:
-        await bot.say("Invalid Role, roles you are able to add are: \"Ma Junior\", \"Sync\'d with Nail\", \"NA\", \"EU\", \"Steam\", \"PS4\", \"Xbone\"")
+        await bot.say("Invalid Role, roles you are able to add are: \n`\"Ma Junior\", \"Sync\'d with Nail\", \"NA\", \"EU\", \"Steam\", \"PS4\", \"Xbone\"`")
         return
 
     await bot.add_roles(member, role)
