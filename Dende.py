@@ -58,13 +58,10 @@ async def addrole(context):
     role = discord.utils.get(context.message.server.roles, name=entered_role)
 
     if role == None or role.name not in valid_roles:
-        msg = "Invalid Role {0.message.author.mention}, roles you are able to add are: \n`\"Ma Junior\", \"Sync\'d with Nail\", \"NA\", \"EU\", \"Steam\", \"PS4\", \"Xbone\"`".format(context)
-        await bot.say(msg)
+        msg = await bot.send_message(context.message.channel, "Invalid Role {0.message.author.mention}, roles you are able to add are: \n`\"Ma Junior\", \"Sync\'d with Nail\", \"NA\", \"EU\", \"Steam\", \"PS4\", \"Xbone\"`".format(context))
     else:
         await bot.add_roles(member, role)
-
-        msg = 'I\'ve given {0.message.author.mention} the role **{1.name}**'.format(context, role)
-        msg = await bot.say(msg)
+        msg = await bot.send_message(context.message.channel, 'I\'ve given {0.message.author.mention} the role **{1.name}**'.format(context, role))
 
     await asyncio.sleep(10)
     await bot.delete_message(msg)
@@ -75,7 +72,7 @@ async def addrole(context):
             aliases=['Removerole', 'RemoveRole', 'removeRole','Rm', 'rm', 'rM', 'remove'],
             pass_context=True)
 async def removerole(context):
-    if context.message.channel.name != 'role-request':
+    if context.message.channel.name != 'role-requests':
         return
 
     entered_role = context.message.content.split(' ', 1)[1]
@@ -83,18 +80,12 @@ async def removerole(context):
     role = discord.utils.get(context.message.server.roles, name=entered_role)
 
     if role == None:
-        msg = "Invalid Role {0.message.author.mention}, roles avaiable to remove are: \n'\"Ma Junior\" \"Sync\'d with Nail\", \"NA\", \"EU\", \"Steam\", \"PS4\", \"Xbone\"'".format(context)
-        await bot.say(msg)
-
+        msg = await bot.send_message(context.message.channel, "Invalid Role {0.message.author.mention}, roles avaiable to remove are: \n'\"Ma Junior\" \"Sync\'d with Nail\", \"NA\", \"EU\", \"Steam\", \"PS4\", \"Xbone\"'".format(context))
     elif role not in context.message.author.roles:
-        msg = "{0.message.author.mention} You do not have this role.".format(context)
-        await bot.say(msg)
-        return
+        msg = await bot.send_message(context.message.channel, "{0.message.author.mention} You do not have this role.".format(context))
     else:
         await bot.remove_roles(member, role)
-
-        msg = 'I\'ve removed the role **{0.name}** from {1.message.author.mention} '.format(role, context)
-        msg = await bot.say(msg)
+        msg = await bot.send_message(context.message.channel, 'I\'ve removed the role **{0.name}** from {1.message.author.mention} '.format(role, context))
 
     await asyncio.sleep(10)
     await bot.delete_message(msg)
