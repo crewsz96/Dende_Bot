@@ -44,7 +44,7 @@ async def lilgreen(context):
 
 #----------------------------------------------#
 @bot.command(name='addrole',
-            aliases=['Addrole', 'AddRole'],
+            aliases=['add', 'addRole', 'AddRole', 'Add'],
             pass_context=True)
 async def addrole(context):
     if context.message.channel.name != 'role-request':
@@ -71,7 +71,7 @@ async def addrole(context):
 #--------------------------------------------------#
 
 @bot.command(name='removerole',
-            aliases=['Removerole', 'RemoveRole', 'removeRole'],
+            aliases=['Removerole', 'RemoveRole', 'removeRole','Rm', 'rm', 'rM', 'remove'],
             pass_context=True)
 async def removerole(context):
     if context.message.channel.name != 'role-request':
@@ -97,5 +97,12 @@ async def removerole(context):
     await asyncio.sleep(3)
     await bot.delete_message(msg)
     await bot.delete_message(context.message)
+
+#--------------------------------------------------#
+
+
+
+
+#--------------------------------------------------#
 
 bot.run(TOKEN)
