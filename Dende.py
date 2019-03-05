@@ -48,7 +48,7 @@ async def lilgreen(context):
             aliases=['add', 'addRole', 'AddRole', 'Add'],
             pass_context=True)
 async def addrole(context):
-    if context.message.channel.name != 'role-request':
+    if context.message.channel.name != 'role-requests':
         return
 
     valid_roles = ['Sync\'d with Nail', 'Ma Junior',
@@ -59,14 +59,13 @@ async def addrole(context):
 
     if role == None or role.name not in valid_roles:
         await bot.say("Invalid Role, roles you are able to add are: \n`\"Ma Junior\", \"Sync\'d with Nail\", \"NA\", \"EU\", \"Steam\", \"PS4\", \"Xbone\"`")
-        return
+    else:
+        await bot.add_roles(member, role)
 
-    await bot.add_roles(member, role)
+        msg = 'I\'ve given {0.message.author.mention} the role **{1.name}**'.format(context, role)
+        msg = await bot.say(msg)
 
-    msg = 'I\'ve given {0.message.author.mention} the role **{1.name}**'.format(context, role)
-    msg = await bot.say(msg)
-
-    await asyncio.sleep(3)
+    await asyncio.sleep(10)
     await bot.delete_message(msg)
     await bot.delete_message(context.message)
 #--------------------------------------------------#
