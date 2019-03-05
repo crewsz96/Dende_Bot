@@ -4,6 +4,7 @@ from discord import Game
 from discord.ext import commands
 import random
 import asyncio
+import datetime, time
 
 with open('config.json') as f:
     data = json.load(f)
@@ -98,11 +99,38 @@ async def removerole(context):
     await bot.delete_message(msg)
     await bot.delete_message(context.message)
 
-#--------------------------------------------------#
+#----------------------------------------------#
+# Kill command for the bot.
+@bot.command(name='stop',
+            pass_context=True)
+async def stop(context):
 
+    m = context.message.author
+    if m.server_permissions.administrator or "Fused With Kami" in m.roles:
+        await bot.close()
+    else:
+        return
+#---------------------------------------------#
 
+@bot.command(name='uptime',
+            description='Gives the current uptime of the bot as Hour/Min/Sec',
+            brief='Curent uptime of Dende',
+            aliases=['up', 'Uptime', 'Up'])
+async def uptime():
+    current_time = time.time()
+    uptime = int(round(current_time - start_time))
+    await bot.say("uptime: {}".format(str(datetime.timedelta(seconds=uptime))))
 
+#-------------------------------------------------------------#
 
-#--------------------------------------------------#
+@bot.command(name='source',
+            description='Source code for Dende',
+            brief='Source code for Dende',
+            aliases=['sc', 'sourcecode'])
+async def source():
+
+    await bot.say("You want to see my source code? Anything for you Gohan :wink: https://github.com/crewsz96/Dende_Bot")
+
+#-------------------------------------------------------------#
 
 bot.run(TOKEN)
