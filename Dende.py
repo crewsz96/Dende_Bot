@@ -13,6 +13,7 @@ TOKEN = data["token"]
 BOT_PREFIX = data["prefix"]
 
 bot = commands.Bot(command_prefix=BOT_PREFIX)
+start_time = time.time()
 
 #-----------------------------------------------#
 @bot.event
@@ -111,7 +112,7 @@ async def stop(context):
 async def uptime():
     current_time = time.time()
     uptime = int(round(current_time - start_time))
-    await bot.say("uptime: {}".format(str(datetime.timedelta(seconds=uptime))))
+    await bot.say("Uptime: {}".format(str(datetime.timedelta(seconds=uptime))))
 
 #-------------------------------------------------------------#
 
