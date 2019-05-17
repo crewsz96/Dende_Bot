@@ -9,6 +9,9 @@ import datetime, time
 with open('config.json') as f:
     data = json.load(f)
 
+with open('framedata.json') as f2:
+    frames = json.load(f2)
+
 TOKEN = data["token"]
 BOT_PREFIX = data["prefix"]
 
@@ -94,7 +97,8 @@ async def removerole(ctx):
 async def stop(ctx):
 
     role = discord.utils.get(ctx.guild.roles, name="Fused With Kami")
-    if m.guild_permissions.administrator or role in ctx.author.roles:
+    m = ctx.message.author
+    if m.guild_permissions.administrator or role in m.roles:
         await bot.close()
     else:
         return
@@ -119,6 +123,25 @@ async def uptime(ctx):
 async def source(ctx):
 
     await ctx.send("You want to see my source code? Anything for you Gohan :wink: https://github.com/crewsz96/Dende_Bot")
+
+#-------------------------------------------------------------#
+
+@bot.command(name='framedata',
+             aliases=['fd', 'frame'])
+async def framedata(ctx):
+
+    message = ctx.message.content.split(' ', 1)[1]
+
+    moves = {}
+    for obj in frames:
+        if obj['Move:'] == message:
+            moves = obj
+            break
+
+    if moves = {}:
+        await ctx.send("That move doesn't exist.")
+    else:
+        msg = "``"
 
 #-------------------------------------------------------------#
 
