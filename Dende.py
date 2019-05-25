@@ -132,16 +132,17 @@ async def framedata(ctx):
 
     message = ctx.message.content.split(' ', 1)[1]
 
-    moves = {}
+    move = {}
     for obj in frames:
-        if obj['Move:'] == message:
-            moves = obj
+        if obj['Move'].upper() == message.upper():
+            move = obj
             break
 
-    if moves = {}:
+    if move == {}:
         await ctx.send("That move doesn't exist.")
     else:
-        msg = "``"
+        msg = "```Move: %s\nStartup: %sf\nAdvantage (On Block): %sf\nAdvantage (On Hit): %sf\nRecovery on Whiff: %sf```" % (move['Move'], move['Startup'], move['Advantage (On Block)'], move['Advantage (On Hit)'], move['Recovery on Whiff'])
+        await ctx.send(msg)
 
 #-------------------------------------------------------------#
 

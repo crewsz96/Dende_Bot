@@ -1,306 +1,247 @@
 [
   {
-    "": "",
-    "Move:": "5L",
-    "Startup:": 6,
+    "Move": "5L",
+    "Startup": 6,
     "Advantage (On Block)": -3,
     "Advantage (On Hit)": 2,
-    "Recovery on Whiff": ""
+    "Recovery on Whiff": 14
   },
   {
-    "": "",
-    "Move:": "5LL",
-    "Startup:": 9,
+    "Move": "5LL",
+    "Startup": 9,
     "Advantage (On Block)": -2,
     "Advantage (On Hit)": 1,
-    "Recovery on Whiff": ""
+    "Recovery on Whiff": 25
   },
   {
-    "": "",
-    "Move:": "5LLL",
-    "Startup:": 15,
+    "Move": "5LLL",
+    "Startup": 15,
     "Advantage (On Block)": -5,
-    "Advantage (On Hit)": 34,
-    "Recovery on Whiff": ""
+    "Advantage (On Hit)": "34*",
+    "Recovery on Whiff": 46
   },
   {
-    "": "",
-    "Move:": "2L",
-    "Startup:": 7,
+    "Move": "2L",
+    "Startup": 7,
     "Advantage (On Block)": -4,
     "Advantage (On Hit)": 1,
-    "Recovery on Whiff": ""
+    "Recovery on Whiff": 15
   },
   {
-    "": "",
-    "Move:": "5M",
-    "Startup:": 10,
+    "Move": "5M",
+    "Startup": 10,
     "Advantage (On Block)": -5,
     "Advantage (On Hit)": -2,
-    "Recovery on Whiff": ""
+    "Recovery on Whiff": 20
   },
   {
-    "": "",
-    "Move:": "2M",
-    "Startup:": 10,
+    "Move": "2M",
+    "Startup": 10,
     "Advantage (On Block)": -6,
     "Advantage (On Hit)": "22 (23)",
-    "Recovery on Whiff": ""
+    "Recovery on Whiff": 21
   },
   {
-    "": "",
-    "Move:": "6M",
-    "Startup:": 24,
+    "Move": "6M",
+    "Startup": 24,
     "Advantage (On Block)": 0,
     "Advantage (On Hit)": 3,
-    "Recovery on Whiff": ""
+    "Recovery on Whiff": 15
   },
   {
-    "": "",
-    "Move:": "5H",
-    "Startup:": 15,
+    "Move": "5H",
+    "Startup": 15,
     "Advantage (On Block)": -9,
-    "Advantage (On Hit)": "26..36 (27..37)",
-    "Recovery on Whiff": ""
+    "Advantage (On Hit)": "26..36 (27..37)*",
+    "Recovery on Whiff": 24
   },
   {
-    "": "",
-    "Move:": "2H",
-    "Startup:": 13,
+    "Move": "2H",
+    "Startup": 13,
     "Advantage (On Block)": -18,
-    "Advantage (On Hit)": 26,
-    "Recovery on Whiff": ""
+    "Advantage (On Hit)": "26*",
+    "Recovery on Whiff": 33
   },
   {
-    "": "",
-    "Move:": "5S",
-    "Startup:": 28,
+    "Move": "5S",
+    "Startup": 28,
     "Advantage (On Block)": "N/A",
     "Advantage (On Hit)": 5,
-    "Recovery on Whiff": ""
+    "Recovery on Whiff": 25
   },
   {
-    "": "",
-    "Move:": "3S",
-    "Startup:": 12,
+    "Move": "3S",
+    "Startup": 12,
     "Advantage (On Block)": -5,
     "Advantage (On Hit)": -5,
-    "Recovery on Whiff": ""
+    "Recovery on Whiff": 33
   },
   {
-    "": "",
-    "Move:": "6S",
-    "Startup:": 16,
+    "Move": "6S",
+    "Startup": 16,
     "Advantage (On Block)": "-5..-3",
     "Advantage (On Hit)": "-5..-3",
-    "Recovery on Whiff": ""
+    "Recovery on Whiff": 33
   },
   {
-    "": "",
-    "Move:": "2S",
-    "Startup:": 16,
+    "Move": "2S",
+    "Startup": 16,
     "Advantage (On Block)": "N/A",
     "Advantage (On Hit)": "4 (32)",
-    "Recovery on Whiff": ""
+    "Recovery on Whiff": 23
   },
   {
-    "": "",
-    "Move:": "",
-    "Startup:": "",
-    "Advantage (On Block)": "",
-    "Advantage (On Hit)": "",
-    "Recovery on Whiff": ""
-  },
-  {
-    "": "",
-    "Move:": "j.L",
-    "Startup:": 6,
+    "Move": "j.L",
+    "Startup": 6,
     "Advantage (On Block)": "6..11 (5..10)",
-    "Advantage (On Hit)": "",
-    "Recovery on Whiff": ""
+    "Advantage (On Hit)": "11..15 (10..14)",
+    "Recovery on Whiff": 14
   },
   {
-    "": "",
-    "Move:": "j.M(1)",
-    "Startup:": 10,
+    "Move": "j.M(1)",
+    "Startup": 10,
     "Advantage (On Block)": "8..14 (7..13)",
-    "Advantage (On Hit)": "",
-    "Recovery on Whiff": ""
+    "Advantage (On Hit)": "12..18 (11..17)",
+    "Recovery on Whiff": "N/A"
   },
   {
-    "": "",
-    "Move:": "j.M(2)",
-    "Startup:": 7,
+    "Move": "j.M(2)",
+    "Startup": 7,
     "Advantage (On Block)": "12..14 (11..13)",
-    "Advantage (On Hit)": "",
-    "Recovery on Whiff": ""
+    "Advantage (On Hit)": "15..18(14..17)",
+    "Recovery on Whiff": 23
   },
   {
-    "": "",
-    "Move:": "j.H",
-    "Startup:": 13,
+    "Move": "j.H",
+    "Startup": 13,
     "Advantage (On Block)": "10..14 (9..13)",
-    "Advantage (On Hit)": "",
-    "Recovery on Whiff": ""
+    "Advantage (On Hit)": "32..37 (31..36)*",
+    "Recovery on Whiff": 25
   },
   {
-    "": "",
-    "Move:": "j.2H",
-    "Startup:": 11,
+    "Move": "j.2H",
+    "Startup": 11,
     "Advantage (On Block)": "-17 (-18)",
-    "Advantage (On Hit)": "",
-    "Recovery on Whiff": ""
+    "Advantage (On Hit)": "26 (25)*",
+    "Recovery on Whiff": 33
   },
   {
-    "": "",
-    "Move:": "j.S",
-    "Startup:": 24,
+    "Move": "j.S",
+    "Startup": 24,
     "Advantage (On Block)": "N/A",
     "Advantage (On Hit)": 24,
-    "Recovery on Whiff": ""
+    "Recovery on Whiff": 26
   },
   {
-    "": "",
-    "Move:": "",
-    "Startup:": "",
-    "Advantage (On Block)": "",
-    "Advantage (On Hit)": "",
-    "Recovery on Whiff": ""
+    "Move": "236S",
+    "Startup": 19,
+    "Advantage (On Block)": -6,
+    "Advantage (On Hit)": "25*",
+    "Recovery on Whiff": "N/A"
   },
   {
-    "": "",
-    "Move:": "236L",
-    "Startup:": 30,
+    "Move": "236L",
+    "Startup": 30,
     "Advantage (On Block)": -2,
-    "Advantage (On Hit)": "",
-    "Recovery on Whiff": ""
+    "Advantage (On Hit)": "23*",
+    "Recovery on Whiff": 3
   },
   {
-    "": "",
-    "Move:": "236M",
-    "Startup:": 34,
+    "Move": "236M",
+    "Startup": 34,
     "Advantage (On Block)": -2,
-    "Advantage (On Hit)": "",
-    "Recovery on Whiff": ""
+    "Advantage (On Hit)": "43 (44)*",
+    "Recovery on Whiff": 8
   },
   {
-    "": "",
-    "Move:": "236H",
-    "Startup:": 29,
+    "Move": "236H",
+    "Startup": 29,
     "Advantage (On Block)": -2,
-    "Advantage (On Hit)": "",
-    "Recovery on Whiff": ""
+    "Advantage (On Hit)": "53 (54)*",
+    "Recovery on Whiff": 11
   },
   {
-    "": "",
-    "Move:": "214L",
-    "Startup:": 41,
+    "Move": "214L",
+    "Startup": 41,
     "Advantage (On Block)": -4,
-    "Advantage (On Hit)": "",
-    "Recovery on Whiff": ""
+    "Advantage (On Hit)": "21..23 (22..24)*",
+    "Recovery on Whiff": 18
   },
   {
-    "": "",
-    "Move:": "214M",
-    "Startup:": 43,
+    "Move": "214M",
+    "Startup": 43,
     "Advantage (On Block)": -3,
-    "Advantage (On Hit)": "",
-    "Recovery on Whiff": ""
+    "Advantage (On Hit)": "37 (38)*",
+    "Recovery on Whiff": 18
   },
   {
-    "": "",
-    "Move:": "214H",
-    "Startup:": 34,
+    "Move": "214H",
+    "Startup": 34,
     "Advantage (On Block)": -10,
-    "Advantage (On Hit)": "",
-    "Recovery on Whiff": ""
+    "Advantage (On Hit)": "35 (36)*",
+    "Recovery on Whiff": 25
   },
   {
-    "": "",
-    "Move:": "",
-    "Startup:": "",
-    "Advantage (On Block)": "",
-    "Advantage (On Hit)": "",
-    "Recovery on Whiff": ""
-  },
-  {
-    "": "",
-    "Move:": "j.236L",
-    "Startup:": 30,
+    "Move": "j.236L",
+    "Startup": 30,
     "Advantage (On Block)": "-2..-3 (-2..-1)",
-    "Advantage (On Hit)": "",
-    "Recovery on Whiff": ""
+    "Advantage (On Hit)": "22..23*",
+    "Recovery on Whiff": 1
   },
   {
-    "": "",
-    "Move:": "j.236M",
-    "Startup:": 32,
+    "Move": "j.236M",
+    "Startup": 32,
     "Advantage (On Block)": "-1 (-2)",
-    "Advantage (On Hit)": "",
-    "Recovery on Whiff": ""
+    "Advantage (On Hit)": "46*",
+    "Recovery on Whiff": 10
   },
   {
-    "": "",
-    "Move:": "j.236H",
-    "Startup:": 29,
+    "Move": "j.236H",
+    "Startup": 29,
     "Advantage (On Block)": "-1 (-2)",
-    "Advantage (On Hit)": "",
-    "Recovery on Whiff": ""
+    "Advantage (On Hit)": "56*",
+    "Recovery on Whiff": 11
   },
   {
-    "": "",
-    "Move:": "j.214L",
-    "Startup:": 16,
+    "Move": "j.214L",
+    "Startup": 16,
     "Advantage (On Block)": "-4..-5",
-    "Advantage (On Hit)": "",
-    "Recovery on Whiff": ""
+    "Advantage (On Hit)": "1..3 (2..4)*",
+    "Recovery on Whiff": 21
   },
   {
-    "": "",
-    "Move:": "j.214M",
-    "Startup:": 20,
+    "Move": "j.214M",
+    "Startup": 20,
     "Advantage (On Block)": -4,
-    "Advantage (On Hit)": "",
-    "Recovery on Whiff": ""
+    "Advantage (On Hit)": "37 (38)*",
+    "Recovery on Whiff": 19
   },
   {
-    "": "",
-    "Move:": "j.214H",
-    "Startup:": 15,
+    "Move": "j.214H",
+    "Startup": 15,
     "Advantage (On Block)": "-3..-5",
-    "Advantage (On Hit)": "",
-    "Recovery on Whiff": ""
+    "Advantage (On Hit)": "51 (52)*",
+    "Recovery on Whiff": 20
   },
   {
-    "": "",
-    "Move:": "",
-    "Startup:": "",
-    "Advantage (On Block)": "",
-    "Advantage (On Hit)": "",
-    "Recovery on Whiff": ""
-  },
-  {
-    "": "",
-    "Move:": "236L+M",
-    "Startup:": 15,
+    "Move": "236L+M",
+    "Startup": 15,
     "Advantage (On Block)": -17,
-    "Advantage (On Hit)": "",
-    "Recovery on Whiff": ""
+    "Advantage (On Hit)": "18*",
+    "Recovery on Whiff": "N/A"
   },
   {
-    "": "",
-    "Move:": "236H+S",
-    "Startup:": 25,
+    "Move": "236H+S",
+    "Startup": 25,
     "Advantage (On Block)": "64..66",
-    "Advantage (On Hit)": "",
-    "Recovery on Whiff": ""
+    "Advantage (On Hit)": "91..100*",
+    "Recovery on Whiff": "N/A"
   },
   {
-    "": "",
-    "Move:": "214L+M",
-    "Startup:": 12,
+    "Move": "214L+M",
+    "Startup": 12,
     "Advantage (On Block)": -35,
-    "Advantage (On Hit)": "",
-    "Recovery on Whiff": ""
+    "Advantage (On Hit)": "38..39*",
+    "Recovery on Whiff": "N/A"
   }
 ]
