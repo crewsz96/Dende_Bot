@@ -1,247 +1,376 @@
 [
   {
     "Move": "5L",
-    "Startup": 6,
-    "Advantage (On Block)": -3,
-    "Advantage (On Hit)": 2,
-    "Recovery on Whiff": 14
+    "Startup": "6f",
+    "Active": "3f",
+    "Recovery": "12f",
+    "Advantage": "-3f",
+    "Guard": "All",
+    "Proration (Initial/Combo)": "80% / +1",
+    "Special Info": "N/A",
+    "Hitbox": "https://i.imgur.com/eYXpipM.png"
   },
   {
     "Move": "5LL",
-    "Startup": 9,
-    "Advantage (On Block)": -2,
-    "Advantage (On Hit)": 1,
-    "Recovery on Whiff": 25
+    "Startup": "9f",
+    "Active": "3f",
+    "Recovery": "15f",
+    "Advantage": "-2f",
+    "Guard": "All",
+    "Proration (Initial/Combo)": "90% / +1",
+    "Special Info": "N/A",
+    "Hitbox": "https://i.imgur.com/heFGLdv.png"
   },
   {
     "Move": "5LLL",
-    "Startup": 15,
-    "Advantage (On Block)": -5,
-    "Advantage (On Hit)": "34*",
-    "Recovery on Whiff": 46
+    "Startup": "15f",
+    "Active": "3f",
+    "Recovery": "18f",
+    "Advantage": "-5f",
+    "Guard": "All",
+    "Proration (Initial/Combo)": "90% / +1",
+    "Special Info": "N/A",
+    "Hitbox": "https://i.imgur.com/J3UyUv0.png"
   },
   {
     "Move": "2L",
-    "Startup": 7,
-    "Advantage (On Block)": -4,
-    "Advantage (On Hit)": 1,
-    "Recovery on Whiff": 15
+    "Startup": "7f",
+    "Active": "4f",
+    "Recovery": "12f",
+    "Advantage": "-4f",
+    "Guard": "Low",
+    "Proration (Initial/Combo)": "80% / +1",
+    "Special Info": "N/A",
+    "Hitbox": "https://i.imgur.com/gifBfS4.png"
   },
   {
     "Move": "5M",
-    "Startup": 10,
-    "Advantage (On Block)": -5,
-    "Advantage (On Hit)": -2,
-    "Recovery on Whiff": 20
+    "Startup": "10f",
+    "Active": "3f",
+    "Recovery": "18f",
+    "Advantage": "-5f",
+    "Guard": "All",
+    "Proration (Initial/Combo)": "90% / +1",
+    "Special Info": "N/A",
+    "Hitbox": "https://i.imgur.com/3jU4Qpv.png"
   },
   {
     "Move": "2M",
-    "Startup": 10,
-    "Advantage (On Block)": -6,
-    "Advantage (On Hit)": "22 (23)",
-    "Recovery on Whiff": 21
+    "Startup": "10f",
+    "Active": "4f",
+    "Recovery": "18f",
+    "Advantage": "-6f",
+    "Guard": "Low",
+    "Proration (Initial/Combo)": "90% / +1",
+    "Special Info": "N/A",
+    "Hitbox": "https://i.imgur.com/3ps9xu2.png"
   },
   {
     "Move": "6M",
-    "Startup": 24,
-    "Advantage (On Block)": 0,
-    "Advantage (On Hit)": 3,
-    "Recovery on Whiff": 15
+    "Startup": "24f",
+    "Active": "6f",
+    "Recovery": "10f",
+    "Advantage": "0f",
+    "Guard": "High",
+    "Proration (Initial/Combo)": "70% / +1",
+    "Special Info": "Cancelling with an air action in sparkin causes 6f non-cancellable landing recovery, airborne on 5f.",
+    "Hitbox": "https://i.imgur.com/HWcz2ft.png"
   },
   {
     "Move": "5H",
-    "Startup": 15,
-    "Advantage (On Block)": -9,
-    "Advantage (On Hit)": "26..36 (27..37)*",
-    "Recovery on Whiff": 24
+    "Startup": "15f",
+    "Active": "4f",
+    "Recovery": "21f",
+    "Advantage": "-9f",
+    "Guard": "All",
+    "Proration (Initial/Combo)": "90% / +1",
+    "Special Info": "N/A",
+    "Hitbox": "https://i.imgur.com/FEax9kP.png"
   },
   {
     "Move": "2H",
-    "Startup": 13,
-    "Advantage (On Block)": -18,
-    "Advantage (On Hit)": "26*",
-    "Recovery on Whiff": 33
+    "Startup": "15f",
+    "Active": "3f",
+    "Recovery": "31f",
+    "Advantage": "-18f",
+    "Guard": "All",
+    "Proration (Initial/Combo)": "90% / +1",
+    "Special Info": "Anti-air 4f-15f",
+    "Hitbox": "https://i.imgur.com/77NSbyT.png"
   },
   {
     "Move": "5S",
-    "Startup": 28,
-    "Advantage (On Block)": "N/A",
-    "Advantage (On Hit)": 5,
-    "Recovery on Whiff": 25
-  },
-  {
-    "Move": "3S",
-    "Startup": 12,
-    "Advantage (On Block)": -5,
-    "Advantage (On Hit)": -5,
-    "Recovery on Whiff": 33
-  },
-  {
-    "Move": "6S",
-    "Startup": 16,
-    "Advantage (On Block)": "-5..-3",
-    "Advantage (On Hit)": "-5..-3",
-    "Recovery on Whiff": 33
+    "Startup": "28f",
+    "Active": "7f",
+    "Recovery": "19f",
+    "Advantage": "N/A",
+    "Guard": "Throw",
+    "Proration (Initial/Combo)": "60% / -",
+    "Special Info": "N/A",
+    "Hitbox": "https://i.imgur.com/d1tPCH0.png"
   },
   {
     "Move": "2S",
-    "Startup": 16,
-    "Advantage (On Block)": "N/A",
-    "Advantage (On Hit)": "4 (32)",
-    "Recovery on Whiff": 23
+    "Startup": "16f",
+    "Active": "7f",
+    "Recovery": "17f",
+    "Advantage": "N/A",
+    "Guard": "Throw",
+    "Proration (Initial/Combo)": "60% / +2",
+    "Special Info": "Only hits on Airborne opponents.",
+    "Hitbox": "https://i.imgur.com/tuai5NW.png"
+  },
+  {
+    "Move": "6S",
+    "Startup": "16f",
+    "Active": "11f",
+    "Recovery": "23f",
+    "Advantage": "-5f (-3f long range)",
+    "Guard": "All",
+    "Proration (Initial/Combo)": "80% +1 +1/ +1 +1 +1",
+    "Special Info": "N/A",
+    "Hitbox": "https://i.imgur.com/R8F246Z.png"
+  },
+  {
+    "Move": "3S",
+    "Startup": "12f",
+    "Active": "11f",
+    "Recovery": "23f",
+    "Advantage": "-5f",
+    "Guard": "All",
+    "Proration (Initial/Combo)": "80% +1 +1/ +1 +1 +1",
+    "Special Info": "N/A",
+    "Hitbox": "https://i.imgur.com/qHtUz1k.png"
   },
   {
     "Move": "j.L",
-    "Startup": 6,
-    "Advantage (On Block)": "6..11 (5..10)",
-    "Advantage (On Hit)": "11..15 (10..14)",
-    "Recovery on Whiff": 14
+    "Startup": "6f",
+    "Active": "3f",
+    "Recovery": "N/A",
+    "Advantage": "N/A",
+    "Guard": "High",
+    "Proration (Initial/Combo)": "80% / +1",
+    "Special Info": "N/A",
+    "Hitbox": "https://i.imgur.com/5ZHl3MO.png"
   },
   {
-    "Move": "j.M(1)",
-    "Startup": 10,
-    "Advantage (On Block)": "8..14 (7..13)",
-    "Advantage (On Hit)": "12..18 (11..17)",
-    "Recovery on Whiff": "N/A"
-  },
-  {
-    "Move": "j.M(2)",
-    "Startup": 7,
-    "Advantage (On Block)": "12..14 (11..13)",
-    "Advantage (On Hit)": "15..18(14..17)",
-    "Recovery on Whiff": 23
+    "Move": "j.M",
+    "Startup": "10f ; 17f",
+    "Active": "2f ; 4f",
+    "Recovery": "N/A",
+    "Advantage": "N/A",
+    "Guard": "High",
+    "Proration (Initial/Combo)": "80% +1 / +1 +1",
+    "Special Info": "N/A",
+    "Hitbox": "https://i.imgur.com/gKGDghz.png"
   },
   {
     "Move": "j.H",
-    "Startup": 13,
-    "Advantage (On Block)": "10..14 (9..13)",
-    "Advantage (On Hit)": "32..37 (31..36)*",
-    "Recovery on Whiff": 25
+    "Startup": "13f",
+    "Active": "6f",
+    "Recovery": "N/A",
+    "Advantage": "N/A",
+    "Guard": "High",
+    "Proration (Initial/Combo)": "80% / +1",
+    "Special Info": "N/A",
+    "Hitbox": "https://i.imgur.com/GtnSXfR.png"
   },
   {
     "Move": "j.2H",
-    "Startup": 11,
-    "Advantage (On Block)": "-17 (-18)",
-    "Advantage (On Hit)": "26 (25)*",
-    "Recovery on Whiff": 33
+    "Startup": "11f",
+    "Active": "4f",
+    "Recovery": "N/A",
+    "Advantage": "N/A",
+    "Guard": "All",
+    "Proration (Initial/Combo)": "80% / +1",
+    "Special Info": "N/A",
+    "Hitbox": "https://i.imgur.com/nRGHZ7f.png"
   },
   {
     "Move": "j.S",
-    "Startup": 24,
-    "Advantage (On Block)": "N/A",
-    "Advantage (On Hit)": 24,
-    "Recovery on Whiff": 26
-  },
-  {
-    "Move": "236S",
-    "Startup": 19,
-    "Advantage (On Block)": -6,
-    "Advantage (On Hit)": "25*",
-    "Recovery on Whiff": "N/A"
+    "Startup": "24f",
+    "Active": "7f",
+    "Recovery": "N/A",
+    "Advantage": "N/A",
+    "Guard": "Throw",
+    "Proration (Initial/Combo)": "60% / +2",
+    "Special Info": "Whiffs on Crouching Opponents.",
+    "Hitbox": "https://i.imgur.com/4wAOvTS.png"
   },
   {
     "Move": "236L",
-    "Startup": 30,
-    "Advantage (On Block)": -2,
-    "Advantage (On Hit)": "23*",
-    "Recovery on Whiff": 3
+    "Startup": "30f",
+    "Active": "4f",
+    "Recovery": "17f (33f no proximity)",
+    "Advantage": "-2f",
+    "Guard": "All, Crossup",
+    "Proration (Initial/Combo)": "70% / +1",
+    "Special Info": "N/A",
+    "Hitbox": "https://i.imgur.com/fpQ5UZI.png"
   },
   {
     "Move": "236M",
-    "Startup": 34,
-    "Advantage (On Block)": -2,
-    "Advantage (On Hit)": "43 (44)*",
-    "Recovery on Whiff": 8
+    "Startup": "31f - 42f, 34f min midscreen",
+    "Active": "6f",
+    "Recovery": "17f (42f no proximity)",
+    "Advantage": "-2f",
+    "Guard": "All, Crossup",
+    "Proration (Initial/Combo)": "70% / +1",
+    "Special Info": "N/A",
+    "Hitbox": "https://i.imgur.com/fpQ5UZI.png"
   },
   {
     "Move": "236H",
-    "Startup": 29,
-    "Advantage (On Block)": -2,
-    "Advantage (On Hit)": "53 (54)*",
-    "Recovery on Whiff": 11
-  },
-  {
-    "Move": "214L",
-    "Startup": 41,
-    "Advantage (On Block)": -4,
-    "Advantage (On Hit)": "21..23 (22..24)*",
-    "Recovery on Whiff": 18
-  },
-  {
-    "Move": "214M",
-    "Startup": 43,
-    "Advantage (On Block)": -3,
-    "Advantage (On Hit)": "37 (38)*",
-    "Recovery on Whiff": 18
-  },
-  {
-    "Move": "214H",
-    "Startup": 34,
-    "Advantage (On Block)": -10,
-    "Advantage (On Hit)": "35 (36)*",
-    "Recovery on Whiff": 25
+    "Startup": "29f - 40f",
+    "Active": "4f",
+    "Recovery": "17f (40f no proximity)",
+    "Advantage": "-2f",
+    "Guard": "All",
+    "Proration (Initial/Combo)": "70% / +1",
+    "Special Info": "Teleport 5f from passing opponent, teleport invuln 4f",
+    "Hitbox": "https://i.imgur.com/fpQ5UZI.png"
   },
   {
     "Move": "j.236L",
-    "Startup": 30,
-    "Advantage (On Block)": "-2..-3 (-2..-1)",
-    "Advantage (On Hit)": "22..23*",
-    "Recovery on Whiff": 1
+    "Startup": "30f",
+    "Active": "4f",
+    "Recovery": "N/A",
+    "Advantage": "N/A",
+    "Guard": "All, Crossup",
+    "Proration (Initial/Combo)": "70% / +1",
+    "Special Info": "N/A",
+    "Hitbox": "https://i.imgur.com/fpQ5UZI.png"
   },
   {
     "Move": "j.236M",
-    "Startup": 32,
-    "Advantage (On Block)": "-1 (-2)",
-    "Advantage (On Hit)": "46*",
-    "Recovery on Whiff": 10
+    "Startup": "31f - 42f",
+    "Active": "6f",
+    "Recovery": "N/A",
+    "Advantage": "N/A",
+    "Guard": "All, Crossup",
+    "Proration (Initial/Combo)": "70% / +1",
+    "Special Info": "N/A",
+    "Hitbox": "https://i.imgur.com/fpQ5UZI.png"
   },
   {
     "Move": "j.236H",
-    "Startup": 29,
-    "Advantage (On Block)": "-1 (-2)",
-    "Advantage (On Hit)": "56*",
-    "Recovery on Whiff": 11
+    "Startup": "29f - 41f",
+    "Active": "4f",
+    "Recovery": "N/A",
+    "Advantage": "N/A",
+    "Guard": "All",
+    "Proration (Initial/Combo)": "70% / +1",
+    "Special Info": "Teleport 5f from passing opponent, teleport invuln 4f",
+    "Hitbox": "https://i.imgur.com/fpQ5UZI.png"
+  },
+  {
+    "Move": "214L",
+    "Startup": "37f",
+    "Active": "7f",
+    "Recovery": "16f",
+    "Advantage": "-1f ~ -4f",
+    "Guard": "All",
+    "Proration (Initial/Combo)": "70% / +1",
+    "Special Info": "Guard point 4f - 21f, invuln 22f - 27f. Full invuln upon gp-trigger until recovery.",
+    "Hitbox": "https://i.imgur.com/FHmd4xk.png"
+  },
+  {
+    "Move": "214M",
+    "Startup": "41f",
+    "Active": "6f",
+    "Recovery": "15f",
+    "Advantage": "-2f ~ -4f",
+    "Guard": "High, Crossup",
+    "Proration (Initial/Combo)": "70% / +1",
+    "Special Info": "Guard point 4f - 21f, invuln 22f - 27f. Full invuln upon gp-trigger until recovery.",
+    "Hitbox": "https://i.imgur.com/IemZno2.png"
+  },
+  {
+    "Move": "214H",
+    "Startup": "31-36f",
+    "Active": "7f",
+    "Recovery": "22f",
+    "Advantage": "-10f",
+    "Guard": "All",
+    "Proration (Initial/Combo)": "70% / +1",
+    "Special Info": "Guard point 1f - 15f, invuln 16f - 21f~26f. Full invuln upon gp-trigger until recovery.",
+    "Hitbox": "https://i.imgur.com/FHmd4xk.png"
   },
   {
     "Move": "j.214L",
-    "Startup": 16,
-    "Advantage (On Block)": "-4..-5",
-    "Advantage (On Hit)": "1..3 (2..4)*",
-    "Recovery on Whiff": 21
+    "Startup": "13f",
+    "Active": "until landing",
+    "Recovery": "16f",
+    "Advantage": "N/A",
+    "Guard": "All",
+    "Proration (Initial/Combo)": "80% / +1",
+    "Special Info": "N/A",
+    "Hitbox": "https://i.imgur.com/FHmd4xk.png"
   },
   {
     "Move": "j.214M",
-    "Startup": 20,
-    "Advantage (On Block)": -4,
-    "Advantage (On Hit)": "37 (38)*",
-    "Recovery on Whiff": 19
+    "Startup": "19f",
+    "Active": "until landing",
+    "Recovery": "16f",
+    "Advantage": "N/A",
+    "Guard": "High",
+    "Proration (Initial/Combo)": "80% / +1",
+    "Special Info": "N/A",
+    "Hitbox": "https://i.imgur.com/IemZno2.png"
   },
   {
     "Move": "j.214H",
-    "Startup": 15,
-    "Advantage (On Block)": "-3..-5",
-    "Advantage (On Hit)": "51 (52)*",
-    "Recovery on Whiff": 20
+    "Startup": "13f",
+    "Active": "until landing",
+    "Recovery": "16f",
+    "Advantage": "N/A",
+    "Guard": "All",
+    "Proration (Initial/Combo)": "80% / +1",
+    "Special Info": "N/A",
+    "Hitbox": "https://i.imgur.com/FHmd4xk.png"
+  },
+  {
+    "Move": "236S",
+    "Startup": "19f",
+    "Active": "N/A",
+    "Recovery": "27f from first active frame",
+    "Advantage": "N/A",
+    "Guard": "All",
+    "Proration (Initial/Combo)": "80% / +1",
+    "Special Info": "236[S] gives a bigger, slower moving orb with identical framedata.",
+    "Hitbox": "https://i.imgur.com/uMTeuGm.png"
   },
   {
     "Move": "236L+M",
-    "Startup": 15,
-    "Advantage (On Block)": -17,
-    "Advantage (On Hit)": "18*",
-    "Recovery on Whiff": "N/A"
+    "Startup": "15f",
+    "Active": "N/A",
+    "Recovery": "18f from first active frame",
+    "Advantage": "-17f",
+    "Guard": "All",
+    "Proration (Initial/Combo)": "N/A",
+    "Special Info": "Full invul 11f - 23f, 236[L+M] gives a SBC with 126f of startup and much higher minimum damage.",
+    "Hitbox": "https://i.imgur.com/OeNLmB1.png"
   },
   {
     "Move": "236H+S",
-    "Startup": 25,
-    "Advantage (On Block)": "64..66",
-    "Advantage (On Hit)": "91..100*",
-    "Recovery on Whiff": "N/A"
+    "Startup": "24f",
+    "Active": "N/A",
+    "Recovery": "19f from first active frame",
+    "Advantage": "68-70f",
+    "Guard": "All",
+    "Proration (Initial/Combo)": "90% +1x11 / +1x12",
+    "Special Info": "Full invul 9f - 10f.",
+    "Hitbox": "https://i.imgur.com/WYTC2LO.png"
   },
   {
     "Move": "214L+M",
-    "Startup": 12,
-    "Advantage (On Block)": -35,
-    "Advantage (On Hit)": "38..39*",
-    "Recovery on Whiff": "N/A"
+    "Startup": "12f",
+    "Active": "N/A",
+    "Recovery": "77f from first active frame",
+    "Advantage": "-35",
+    "Guard": "All",
+    "Proration (Initial/Combo)": "N/A",
+    "Special Info": "Full invul 1f - 23f.",
+    "Hitbox": "https://i.imgur.com/ouNOVft.png"
   }
 ]

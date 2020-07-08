@@ -141,7 +141,7 @@ async def framedata(ctx):
     if move == {}:
         await ctx.send("That move doesn't exist.")
     else:
-        msg = "```Move: %s\nStartup: %sf\nAdvantage (On Block): %sf\nAdvantage (On Hit): %sf\nRecovery on Whiff: %sf```" % (move['Move'], move['Startup'], move['Advantage (On Block)'], move['Advantage (On Hit)'], move['Recovery on Whiff'])
+        msg = "```Move: %s\nStartup: %s\nActive: %s\nRecovery: %s\nAdvantage: %s\nGuard: %s\nProration (Inital/Combo): %s\nSpecial Info: %s\nHitbox:``` %s" % (move['Move'], move['Startup'], move['Active'], move['Recovery'], move['Advantage'], move['Guard'], move['Proration (Initial/Combo)'], move['Special Info'], move['Hitbox'])
         await ctx.send(msg)
 
 #-------------------------------------------------------------#
